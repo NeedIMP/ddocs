@@ -69,3 +69,11 @@ EXPOSE 8761 # Порт микросервися
 
     Посмотри видео 
 [Видео на youtube](https://www.youtube.com/playlist?list=PLD5U-C5KK50XMCBkY0U-NLzglcRHzOwAg)
+
+### Для запуска
+
+```bash
+    docker-compose -f  docker-compose.dev.yml -f docker-compose.yml up
+    # или c -d для запуска в фоновом режиме
+    docker-compose -f  docker-compose.dev.yml -f docker-compose.yml up -d
+```
